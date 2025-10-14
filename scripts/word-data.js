@@ -7,7 +7,7 @@ module.exports = [
     hangul: '인간',
     romanized: 'in-gan',
     meaning: 'human being',
-    hanja_characters: ['人', '間'],
+    hanja_characters: ['人'],
     frequency_rank: 1,
     category: 'people'
   },

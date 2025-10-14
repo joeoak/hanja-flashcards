@@ -81,6 +81,8 @@ async function populateDatabase() {
           
           relationshipCount++;
         }
+        // Note: Some words may contain hanja characters not in our database.
+        // This is expected since we only include the 20 most common hanja.
       }
     }
     console.log(`✓ Created ${relationshipCount} hanja-word relationships`);
