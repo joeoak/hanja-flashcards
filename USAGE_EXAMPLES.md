@@ -375,7 +375,7 @@ Expected output:
    Hanja: 人間
    Hangul: 인간
    Meaning: human being
-   Uses 1 hanja characters
+   Uses 1 hanja character
    ✓ Get specific word passed
 
 6. Testing search by hanja character...
