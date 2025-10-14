@@ -1,0 +1,19 @@
+{
+  "name": "korean-hanja-redis",
+  "version": "1.0.0",
+  "description": "Redis backend for Korean Hanja flashcard application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "populate": "node scripts/populate-data.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": ["hanja", "korean", "redis", "flashcards"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "redis": "^4.6.5",
+    "cors": "^2.8.5"
+  }
+}
