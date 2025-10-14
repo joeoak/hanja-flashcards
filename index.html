@@ -386,8 +386,9 @@
             }
         }
 
-        // Shuffle cards
+        // Shuffle cards using Fisher-Yates algorithm
         function shuffleCards() {
+            // Randomize array order by swapping each element with a random element
             for (let i = cards.length - 1; i > 0; i--) {
                 const j = Math.floor(Math.random() * (i + 1));
                 [cards[i], cards[j]] = [cards[j], cards[i]];
@@ -409,7 +410,7 @@
                 previousCard();
             } else if (e.key === 'ArrowRight') {
                 nextCard();
-            } else if (e.key === ' ' || e.key === 'Enter') {
+            } else if ((e.key === ' ' || e.key === 'Enter') && e.target.tagName !== 'BUTTON') {
                 e.preventDefault();
                 flipCard();
             }
