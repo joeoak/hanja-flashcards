@@ -4,7 +4,7 @@ A simple, web-based flash card application to help people memorize Korean Hanja 
 
 ## Features
 
-- 📚 **20 Essential Hanja Characters** - Learn commonly used Korean Hanja with English meanings, Korean readings, and example words
+- 📚 **50 Essential Hanja Characters** - Learn commonly used Korean Hanja with English meanings, Korean readings, and example words
 - 🔄 **Interactive Card Flipping** - Click cards to reveal meanings and readings
 - ⌨️ **Keyboard Navigation** - Use arrow keys to navigate and spacebar/enter to flip cards
 - 🔀 **Shuffle Mode** - Randomize card order for varied practice
@@ -36,13 +36,17 @@ Simply open `index.html` in any modern web browser.
 
 ## Hanja Characters Included
 
-The app includes 20 fundamental Hanja characters covering:
-- Basic concepts (person, big, small, middle)
-- Geography (country, mountain, water)
-- Time (day, month, year, time)
-- Nature elements (fire, wood, gold, earth)
+The app includes 50 fundamental Hanja characters covering:
+- Basic concepts (person, big, small, middle, new, old)
+- Family (house, father, mother, child, man, woman)
+- Geography (country, mountain, water, east, west, south, north)
+- Time (day, month, year, time, first, after)
+- Nature elements (fire, wood, gold, earth, water, sky, ground)
+- Position (up, down, left, right)
+- Size & quantity (long, short, high, low, many, few)
+- Colors (white, black, blue, red)
 - Abstract concepts (heart, love, friend)
-- Education (learning, life)
+- Education (learning, life, teacher)
 
 Each card includes:
 - The Hanja character
