@@ -192,12 +192,12 @@
         <div class="card-container">
             <div class="card" id="flashcard">
                 <div class="card-face card-front">
-                    <div class="hanja" id="hanja"></div>
-                    <div class="hint">Click to reveal meaning</div>
+                    <div class="hanja" id="korean-reading"></div>
+                    <div class="hint">Click to reveal Hanja & meaning</div>
                 </div>
                 <div class="card-face card-back">
                     <div class="meaning" id="meaning"></div>
-                    <div class="reading" id="reading"></div>
+                    <div class="reading" id="hanja"></div>
                     <div class="example" id="example"></div>
                 </div>
             </div>
@@ -353,9 +353,9 @@
         // Display current card
         function displayCard() {
             const card = cards[currentIndex];
-            document.getElementById('hanja').textContent = card.hanja;
+            document.getElementById('korean-reading').textContent = card.reading;
             document.getElementById('meaning').textContent = card.meaning;
-            document.getElementById('reading').textContent = card.reading;
+            document.getElementById('hanja').textContent = card.hanja;
             document.getElementById('example').textContent = card.example;
             document.getElementById('current').textContent = currentIndex + 1;
             
