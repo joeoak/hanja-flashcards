@@ -84,7 +84,7 @@ hanja-flashcards/
 ├── public/           # Static assets
 ├── src/
 │   ├── data/         # Hanja cards data
-│   ├── main.js       # Application entry point
+│   ├── main.jsx      # Application entry point
 │   └── style.css     # Styles
 ├── index.html        # HTML entry point
 ├── package.json      # Dependencies and scripts
