@@ -88,7 +88,7 @@ hanja-flashcards/
 │   │   ├── FlashCard.jsx # Flash card component
 │   │   ├── Controls.jsx  # Controls (navigation, shuffle, etc.)
 │   │   └── Progress.jsx  # Progress tracker
-│   ├── main.js           # Application entry point
+│   ├── main.jsx          # Application entry point
 │   └── style.css         # Styles
 ├── index.html            # HTML entry point
 ├── package.json          # Dependencies and scripts
