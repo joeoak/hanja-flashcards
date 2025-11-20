@@ -118,6 +118,6 @@ export const hanjaCards = [
         hanja: '友',
         meaning: 'Friend',
         reading: '우 (u)',
-        example: '友정 (우정) - friendship'
+        example: '友情 (우정) - friendship'
     }
 ];
