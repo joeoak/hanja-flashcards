@@ -83,12 +83,16 @@ npm run preview
 hanja-flashcards/
 ├── public/           # Static assets
 ├── src/
-│   ├── data/         # Hanja cards data
-│   ├── main.jsx      # Application entry point
-│   └── style.css     # Styles
-├── index.html        # HTML entry point
-├── package.json      # Dependencies and scripts
-└── vite.config.js    # Vite configuration
+│   ├── data/             # Hanja cards data
+│   ├── components/       # React components
+│   │   ├── FlashCard.jsx # Flash card component
+│   │   ├── Controls.jsx  # Controls (navigation, shuffle, etc.)
+│   │   └── Progress.jsx  # Progress tracker
+│   ├── main.js           # Application entry point
+│   └── style.css         # Styles
+├── index.html            # HTML entry point
+├── package.json          # Dependencies and scripts
+└── vite.config.js        # Vite configuration
 ```
 
 ## Controls
