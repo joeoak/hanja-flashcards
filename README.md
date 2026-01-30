@@ -16,7 +16,7 @@ A simple, web-based flash card application to help people memorize Korean Hanja 
 
 ### Online
 Simply open `index.html` in any modern web browser.
-
+dfsg
 ### Local Development
 1. Clone the repository
 2. Open `index.html` in your browser, or
