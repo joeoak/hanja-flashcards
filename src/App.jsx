@@ -57,7 +57,7 @@ function App() {
 
     document.addEventListener('keydown', handleKeyDown);
     return () => document.removeEventListener('keydown', handleKeyDown);
-  }, [currentIndex, cards.length]);
+  }, [currentIndex, cards.length, isFlipped]);
 
   return (
     <div className="container">
