@@ -26,14 +26,6 @@ Simply open `index.html` in any modern web browser.
    # Then visit http://localhost:8080
    ```
 
-## Controls
-
-- **Click/Tap** - Flip card to see meaning
-- **Next/Previous Buttons** - Navigate through cards
-- **Shuffle Button** - Randomize card order
-- **Arrow Keys** - Navigate (← previous, → next)
-- **Spacebar/Enter** - Flip current card
-
 ## Hanja Characters Included
 
 The app includes 20 fundamental Hanja characters covering:
