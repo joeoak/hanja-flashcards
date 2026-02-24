@@ -2,16 +2,6 @@
 
 A simple, web-based flash card application to help people memorize Korean Hanja characters.
 
-## Features
-
-- 📚 **20 Essential Hanja Characters** - Learn commonly used Korean Hanja with English meanings, Korean readings, and example words
-- 🔄 **Interactive Card Flipping** - Click cards to reveal meanings and readings
-- ⌨️ **Keyboard Navigation** - Use arrow keys to navigate and spacebar/enter to flip cards
-- 🔀 **Shuffle Mode** - Randomize card order for varied practice
-- 📊 **Progress Tracking** - See your position in the deck
-- 📱 **Mobile Responsive** - Works seamlessly on all devices
-- 🎨 **Beautiful UI** - Modern gradient design with smooth animations
-
 ## How to Use
 
 ### Online
