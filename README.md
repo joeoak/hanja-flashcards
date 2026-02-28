@@ -1,6 +1,6 @@
 # Korean Hanja Flash Cards
 
-A simple, web-based flash card application to help people memorize Korean Hanja characters.
+A simple, web-based flash card application to help people memorize Korean Hanja characters. 
 
 ## How to Use
 
