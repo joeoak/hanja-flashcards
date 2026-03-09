@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { hanjaCards } from './data/hanjaCards.js';
 import FlashCard from './components/FlashCard.jsx';
 import Controls from './components/Controls.jsx';
@@ -12,23 +12,19 @@ function App() {
 
   const currentCard = cards[currentIndex];
 
-  const flipCard = () => {
-    setIsFlipped(!isFlipped);
-  };
+  const flipCard = useCallback(() => {
+    setIsFlipped(prev => !prev);
+  }, []);
 
-  const nextCard = () => {
-    if (currentIndex < cards.length - 1) {
-      setCurrentIndex(currentIndex + 1);
-      setIsFlipped(false);
-    }
-  };
+  const nextCard = useCallback(() => {
+    setCurrentIndex(prev => prev < cards.length - 1 ? prev + 1 : prev);
+    setIsFlipped(false);
+  }, [cards.length]);
 
-  const previousCard = () => {
-    if (currentIndex > 0) {
-      setCurrentIndex(currentIndex - 1);
-      setIsFlipped(false);
-    }
-  };
+  const previousCard = useCallback(() => {
+    setCurrentIndex(prev => prev > 0 ? prev - 1 : prev);
+    setIsFlipped(false);
+  }, []);
 
   const shuffleCards = () => {
     const shuffled = [...cards];
@@ -57,7 +53,7 @@ function App() {
 
     document.addEventListener('keydown', handleKeyDown);
     return () => document.removeEventListener('keydown', handleKeyDown);
-  }, [currentIndex, cards.length, isFlipped]);
+  }, [previousCard, nextCard, flipCard]);
 
   return (
     <div className="container">
