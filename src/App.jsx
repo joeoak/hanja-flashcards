@@ -45,7 +45,10 @@ function App() {
         previousCard();
       } else if (e.key === 'ArrowRight') {
         nextCard();
-      } else if ((e.key === ' ' || e.key === 'Enter') && e.target.tagName !== 'BUTTON') {
+      } else if (
+        (e.key === ' ' || e.key === 'Enter') &&
+        !['BUTTON', 'INPUT', 'TEXTAREA', 'SELECT', 'A'].includes(e.target.tagName)
+      ) {
         e.preventDefault();
         flipCard();
       }

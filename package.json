@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "description": "A simple, web-based flash card application to help people memorize Korean Hanja characters.",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -18,10 +21,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
     "vite": "^7.1.11"
   },
   "dependencies": {
-    "@vitejs/plugin-react": "^5.0.4",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   }

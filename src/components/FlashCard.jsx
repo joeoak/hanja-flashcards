@@ -6,6 +6,16 @@ function FlashCard({ card, isFlipped, onFlip }) {
       <div 
         className={`card ${isFlipped ? 'flipped' : ''}`}
         onClick={onFlip}
+        onKeyDown={(e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            onFlip();
+          }
+        }}
+        tabIndex={0}
+        role="button"
+        aria-pressed={isFlipped}
+        aria-label={isFlipped ? "Flash card, showing meaning. Press to show hanja." : "Flash card, showing hanja. Press to reveal meaning."}
       >
         <div className="card-face card-front">
           <div className="hanja">{card.hanja}</div>

@@ -1,19 +1,5 @@
 # Korean Hanja Flash Cards
 
-A simple, web-based flash card application to help people memorize Korean Hanja characters.
-
-## Features
-
-- 📚 **20 Essential Hanja Characters** - Learn commonly used Korean Hanja with English meanings, Korean readings, and example words
-- 🔄 **Interactive Card Flipping** - Click cards to reveal meanings and readings
-- ⌨️ **Keyboard Navigation** - Use arrow keys to navigate and spacebar/enter to flip cards
-- 🔀 **Shuffle Mode** - Randomize card order for varied practice
-- 📊 **Progress Tracking** - See your position in the deck
-- 📱 **Mobile Responsive** - Works seamlessly on all devices
-- 🎨 **Beautiful UI** - Modern gradient design with smooth animations
-
-# Korean Hanja Flash Cards
-
 A modern, web-based flash card application built with Vite to help people memorize Korean Hanja characters.
 
 ## Features
@@ -33,7 +19,7 @@ This project is built with [Vite](https://vitejs.dev/) for modern web developmen
 
 ### Prerequisites
 
-- Node.js (v14 or higher)
+- Node.js (v20.19.0 or higher, or v22.12.0+)
 - npm or yarn
 
 ### Installation
